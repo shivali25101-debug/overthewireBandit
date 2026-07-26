@@ -1,0 +1,7 @@
+ls
+//the filename was --spaces in this filename" . So to open a file whose name has spaces in it , we usually put single or double quotes . but here we have -- in start as well . so we have two alternatives.
+cat -- "--spaces in this filename--"
+//or
+cat "./--spaces in this filename--"
+exit 
+ssh bandit3@bandit.labs.overthewire.org -p 2220
