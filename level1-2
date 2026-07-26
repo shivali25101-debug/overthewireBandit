@@ -1,0 +1,4 @@
+ls
+cat ./-     //the filename was - . which is a dashed filename so basically to open such a filename i linux , we have to specify the command prompt that the - is a filename or it is msiatkenly taken as a part of the command 
+exit 
+ssh bandit2@bandit.labs.overthewire.org -p 2220
