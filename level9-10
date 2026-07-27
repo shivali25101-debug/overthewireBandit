@@ -1,0 +1,5 @@
+//password is in data.txt in a line having human readable string 
+ls
+strings data.txt
+exit
+ssh ...
