@@ -1,0 +1,10 @@
+ls
+cd inhere
+cd maybehere00
+ls -al
+//checking for all the directories and checking which file has size of 1033
+cd maybehere07
+ls -al
+cat ./.file2
+exit
+ssh bandit6@bandit.labs.overthewire.org -p 2220
