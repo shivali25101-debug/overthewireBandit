@@ -1,0 +1,5 @@
+// password is in a file which is on the server owned by user bandit7 and the group is bandit6
+find / -user bandit7 -group bandit6 2>/dev/null
+cat path_of_the_file
+exit
+ssh bandi......
