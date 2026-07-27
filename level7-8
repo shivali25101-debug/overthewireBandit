@@ -1,0 +1,4 @@
+ls
+grep "millionth" data.txt
+exit
+ssh ....
