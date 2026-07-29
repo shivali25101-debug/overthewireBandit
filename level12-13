@@ -1,0 +1,24 @@
+//compression files and all
+ls
+cat data.txt 
+//hex dump data
+//creating a temporary directory for sake of ease 
+mkdir /tmp/shivali123 OR mktemp -d
+cp ~/data.txt /tmp/shivali123/
+cd /tmp/shivali123/
+xxd -r data.txt data.bin
+file data.bin
+//if gzip
+mv data.bin data.bin.gz
+gunzip data.bin.gz
+file gata.bin
+//if bzip2
+mv data.bin data.bin.bz2
+bunzip2 data.bin.bz2
+file data.bin
+//if tar
+mv data.bin data.bin.tar
+tar -xf data.bin.tar
+ls
+//since the file name changes in tar so we need to check for it .
+// continue till ascii text is reached 
