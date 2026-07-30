@@ -1,0 +1,5 @@
+openssl s_client -connect localhost:30001
+//paste the current password 
+//new password obtained 
+exit 
+ssh ...
