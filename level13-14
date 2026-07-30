@@ -1,0 +1,7 @@
+//we have to copy the key file into our local system and then we have to use that to log into the level14
+ls
+//sshkey.private file is present in the home directory
+exit 
+scp -P 2220 bandit13@bandit.labs.overthewire.org:~/sshkey.private .
+//file copied in our local root system 
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
