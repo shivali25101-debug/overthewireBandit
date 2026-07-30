@@ -1,0 +1,9 @@
+cd /etc
+cd/bandit_pass
+cat bandit14
+//copy the pasword 
+nc localhost 30000
+//paste the password
+//new password obtained 
+exit 
+ssh bandit15@bandit.labs.overthewire.org -p 2220 
