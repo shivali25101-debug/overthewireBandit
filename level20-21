@@ -1,0 +1,10 @@
+ls
+//suconnect is present which is uid type file 
+//now we have to set up two terminals . one will be acting like client and other as server . from server we will tyoe the current password and then if the password matches , then we will get the aother password 
+//first terminal
+nc -l -p 1234
+//other terminal logged i the bandit 20 level 
+./suconnect 1234
+//first terminal 
+//current password 
+/new password obtained 
