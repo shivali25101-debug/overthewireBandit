@@ -1,0 +1,10 @@
+nmap -p 31000-32000 localhost
+nc localhost PORT 
+//checking which port returns value
+openssl s_client -connect localhost:31790 -ign_eof
+//type current password 
+//new password received copy it 
+exit
+notepad mykey OR copy con mykey
+//paste the key
+ssh -i mykey bandit17@bandit.labs.overthewire.org -p 2220
