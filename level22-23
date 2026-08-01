@@ -1,0 +1,11 @@
+ls
+cd /etc/cron.d
+ls
+cat cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+echo I am user bandit 23 | my5sum
+//copy the hash obtained 
+cat /tmp/<hash>
+//password obtained
+exit 
+ssh ...
