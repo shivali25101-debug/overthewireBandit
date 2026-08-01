@@ -1,0 +1,4 @@
+ls
+diff passwords.new passwords.old
+exit
+ssh....
