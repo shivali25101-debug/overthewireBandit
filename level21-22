@@ -1,0 +1,8 @@
+ls
+cd /etc/cron.d
+ls
+cat cronjob_bandit22.sh
+cat /tmp/....
+//password obtained 
+exit 
+ssh ...
